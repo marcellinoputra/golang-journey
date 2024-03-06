@@ -1,6 +1,6 @@
 package main
 
-import "learning-golang/day5"
+import "learning-golang/day6"
 
 func main() {
 
@@ -16,7 +16,10 @@ func main() {
 	// exercise_2.Hello()
 	// exercise_3.CheckGoVersion()
 
-	//Day 5
-	day5.Test()
+	// //Day 5
+	// day5.Test()
+
+	//Day 6
+	day6.Test()
 
 }
