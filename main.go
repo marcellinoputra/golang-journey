@@ -1,5 +1,9 @@
 package main
 
+import (
+	"learning-golang/day4"
+)
+
 func main() {
 
 	//Day 3
@@ -7,5 +11,11 @@ func main() {
 	// exercise_1.Bye()
 	// exercise_2.Printer()
 	// exercise_3.Print()
+
+	//Day 4
+	day4.Test()
+	// exercise_1.Shy()
+	// exercise_2.Hello()
+	// exercise_3.CheckGoVersion()
 
 }
