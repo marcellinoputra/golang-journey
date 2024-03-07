@@ -1,6 +1,9 @@
 package main
 
-import "learning-golang/day6"
+import (
+	// "learning-golang/day6"
+	"learning-golang/day7/exercise"
+)
 
 func main() {
 
@@ -20,6 +23,9 @@ func main() {
 	// day5.Test()
 
 	//Day 6
-	day6.Test()
+	// day6.Test()
+
+	//Day 7
+	day7.Test()
 
 }
