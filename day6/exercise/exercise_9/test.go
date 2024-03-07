@@ -1,24 +1,25 @@
 // ---------------------------------------------------------
-// EXERCISE: Multiple #2
+// EXERCISE: Short Declare
 //
-//  1. Declare and initialize two string variables
-//     using multiple variable declaration
-//
-//  2. Use the type once while declaring the variables
-//
-//  3. The first variable's name should be firstName
-//  4. The second variable's name should be lastName
-//
-//  5. Print them all
+//  Declare and then print four variables using
+//  the short declaration statement.
 //
 // EXPECTED OUTPUT
-//  "" ""
+//  i: 314 f: 3.14 s: Hello b: true
 // ---------------------------------------------------------
 
 package exercise_9
 
-func Unused() {
-	var isLiquid bool
+import "fmt"
 
-	_ = isLiquid
+func Unused() {
+	i := 314
+	f := 3.14
+	s := "Hello"
+	b := true
+
+	fmt.Println("i: ", i)
+	fmt.Println("f: ", f)
+	fmt.Println("s: ", s)
+	fmt.Println("b: ", b)
 }
